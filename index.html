@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_17da4f3fe29ac0e67924c90f93cc71d5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_17da4f3fe29ac0e67924c90f93cc71d5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_17da4f3fe29ac0e67924c90f93cc71d5 = L.map(
+                "map_17da4f3fe29ac0e67924c90f93cc71d5",
+                {
+                    center: [6.5244, 3.3792],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d8a6d54466eba219ed2518a43dbfea9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3d8a6d54466eba219ed2518a43dbfea9.addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var marker_9b7aae4ff9c2fe3510a2c621b75aa89c = L.marker(
+                [6.4647612500000005, 3.153225221590633],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_e5462bbc91ded28d0bb6ec5e311671c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b7aae4ff9c2fe3510a2c621b75aa89c.setIcon(icon_e5462bbc91ded28d0bb6ec5e311671c5);
+        
+    
+        var popup_3859b75e180d39bd09067a4de3221452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c1c59f8d32f4be4d73bef7d331aeb36 = $(`<div id="html_5c1c59f8d32f4be4d73bef7d331aeb36" style="width: 100.0%; height: 100.0%;">Ilogbo-Center Hospital, Adeyemo Street, Alasia, Ojo, Lagos, Nigeria (Ilogbo-Center Hospital, Adeyemo Street, Alasia, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_3859b75e180d39bd09067a4de3221452.setContent(html_5c1c59f8d32f4be4d73bef7d331aeb36);
+            
+        
+
+        marker_9b7aae4ff9c2fe3510a2c621b75aa89c.bindPopup(popup_3859b75e180d39bd09067a4de3221452)
+        ;
+
+        
+    
+    
+            var marker_2d86ea51ebd2fd53398bd0e5e8ee81f8 = L.marker(
+                [6.4955066, 3.1717899],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_cb31df57c2a56557d046869a41447697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d86ea51ebd2fd53398bd0e5e8ee81f8.setIcon(icon_cb31df57c2a56557d046869a41447697);
+        
+    
+        var popup_16f3c54f26d687308cfe3b12c69e44be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d9568663083e421b2f47197b5a3adba = $(`<div id="html_8d9568663083e421b2f47197b5a3adba" style="width: 100.0%; height: 100.0%;">Leverage Hospital Specialist Clinic, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria (Leverage Hospital Specialist Clinic, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_16f3c54f26d687308cfe3b12c69e44be.setContent(html_8d9568663083e421b2f47197b5a3adba);
+            
+        
+
+        marker_2d86ea51ebd2fd53398bd0e5e8ee81f8.bindPopup(popup_16f3c54f26d687308cfe3b12c69e44be)
+        ;
+
+        
+    
+    
+            var marker_970f2f45e708e46d31256ea6fd1b88f0 = L.marker(
+                [6.496422, 3.1711113],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_f2b1ea6645985691c84ea03be8ec54a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_970f2f45e708e46d31256ea6fd1b88f0.setIcon(icon_f2b1ea6645985691c84ea03be8ec54a0);
+        
+    
+        var popup_030dbdd760c2ecda926d5f5b06e064d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e2e0e782dda51acb43b69de8c14c64 = $(`<div id="html_e5e2e0e782dda51acb43b69de8c14c64" style="width: 100.0%; height: 100.0%;">Tower Of Glory Hospital, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria (Tower Of Glory Hospital, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_030dbdd760c2ecda926d5f5b06e064d4.setContent(html_e5e2e0e782dda51acb43b69de8c14c64);
+            
+        
+
+        marker_970f2f45e708e46d31256ea6fd1b88f0.bindPopup(popup_030dbdd760c2ecda926d5f5b06e064d4)
+        ;
+
+        
+    
+    
+            var marker_1a7de272834d8842ed64aac35b1ae707 = L.marker(
+                [6.5029858, 3.2065956],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_56de0388469747abe2d674610493befa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a7de272834d8842ed64aac35b1ae707.setIcon(icon_56de0388469747abe2d674610493befa);
+        
+    
+        var popup_5b89121c851d142cd8634150fb741e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9213c2ce34ed634453695b353a0ccd96 = $(`<div id="html_9213c2ce34ed634453695b353a0ccd96" style="width: 100.0%; height: 100.0%;">Adis Bunm Trado Medical Hospital And Maternity Home 14 Nnaema Uzor Street Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria (Adis Bunm Trado Medical Hospital And Maternity Home 14 Nnaema Uzor Street Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_5b89121c851d142cd8634150fb741e71.setContent(html_9213c2ce34ed634453695b353a0ccd96);
+            
+        
+
+        marker_1a7de272834d8842ed64aac35b1ae707.bindPopup(popup_5b89121c851d142cd8634150fb741e71)
+        ;
+
+        
+    
+    
+            var marker_40156e69abb6d469b1590ef5c3dd355c = L.marker(
+                [6.5023249, 3.198207],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_171b056efe0a77250e5a3e6689196f4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40156e69abb6d469b1590ef5c3dd355c.setIcon(icon_171b056efe0a77250e5a3e6689196f4e);
+        
+    
+        var popup_9cc7124ed2535b968ba8e6615f45956d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a2a0976ce51e1e19012b9e01f04e6a0 = $(`<div id="html_8a2a0976ce51e1e19012b9e01f04e6a0" style="width: 100.0%; height: 100.0%;">Wisdom Hospital And Maternity, Lasu-Isheri Road, Ojo, Lagos, Nigeria (Wisdom Hospital And Maternity, Lasu-Isheri Road, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_9cc7124ed2535b968ba8e6615f45956d.setContent(html_8a2a0976ce51e1e19012b9e01f04e6a0);
+            
+        
+
+        marker_40156e69abb6d469b1590ef5c3dd355c.bindPopup(popup_9cc7124ed2535b968ba8e6615f45956d)
+        ;
+
+        
+    
+    
+            var marker_2f4f413ce4c6d9748ef1a9b111c319fa = L.marker(
+                [6.4971682, 3.1964502],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_37cd6211149ccdcd6e5dc90e9359b3e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f4f413ce4c6d9748ef1a9b111c319fa.setIcon(icon_37cd6211149ccdcd6e5dc90e9359b3e9);
+        
+    
+        var popup_084ad06e5625aa29d0ac03c2b55d6a75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b00a14ef9a737da63437614dc125e710 = $(`<div id="html_b00a14ef9a737da63437614dc125e710" style="width: 100.0%; height: 100.0%;">Betheland Hospital, David Edobor Street, Ojo, Lagos, Nigeria (Betheland Hospital, David Edobor Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_084ad06e5625aa29d0ac03c2b55d6a75.setContent(html_b00a14ef9a737da63437614dc125e710);
+            
+        
+
+        marker_2f4f413ce4c6d9748ef1a9b111c319fa.bindPopup(popup_084ad06e5625aa29d0ac03c2b55d6a75)
+        ;
+
+        
+    
+    
+            var marker_8cf772a73b84a6a51f206a1aea9c84b2 = L.marker(
+                [6.4961688, 3.1253126],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_6ec2a4541be4965ed87c1eb9dfdc1217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8cf772a73b84a6a51f206a1aea9c84b2.setIcon(icon_6ec2a4541be4965ed87c1eb9dfdc1217);
+        
+    
+        var popup_50461bb54d22e5d0cffcfaf348274d68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b96f67adf7720eddbd34996b6d026d61 = $(`<div id="html_b96f67adf7720eddbd34996b6d026d61" style="width: 100.0%; height: 100.0%;">Ore Ofe Hospital Ijanikin, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria (Ore Ofe Hospital Ijanikin, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_50461bb54d22e5d0cffcfaf348274d68.setContent(html_b96f67adf7720eddbd34996b6d026d61);
+            
+        
+
+        marker_8cf772a73b84a6a51f206a1aea9c84b2.bindPopup(popup_50461bb54d22e5d0cffcfaf348274d68)
+        ;
+
+        
+    
+    
+            var marker_23001de5f64b170741f211af6266cfdc = L.marker(
+                [6.4943433, 3.1184435],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_c1a5cdd14de8e69d842d7df3c389b386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23001de5f64b170741f211af6266cfdc.setIcon(icon_c1a5cdd14de8e69d842d7df3c389b386);
+        
+    
+        var popup_5fe4c4647f4be2f744f0429e00a0d810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59309cea22fcbd2e47181e03922411c1 = $(`<div id="html_59309cea22fcbd2e47181e03922411c1" style="width: 100.0%; height: 100.0%;">Femola Hospital, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria (Femola Hospital, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_5fe4c4647f4be2f744f0429e00a0d810.setContent(html_59309cea22fcbd2e47181e03922411c1);
+            
+        
+
+        marker_23001de5f64b170741f211af6266cfdc.bindPopup(popup_5fe4c4647f4be2f744f0429e00a0d810)
+        ;
+
+        
+    
+    
+            var marker_d9047f2edec7fcf1edc1ce2dd0f46191 = L.marker(
+                [6.5906253, 3.2283304],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_4671391edcd151ad6ef2612ce94b87d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9047f2edec7fcf1edc1ce2dd0f46191.setIcon(icon_4671391edcd151ad6ef2612ce94b87d3);
+        
+    
+        var popup_9641c6e25500444927d818d35a2812e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e04f146297e3cf71ee4f2d1dc9493849 = $(`<div id="html_e04f146297e3cf71ee4f2d1dc9493849" style="width: 100.0%; height: 100.0%;">Balogun Primary Healthcare Center., Anic Avenue, Alimosho, Lagos, Nigeria (Balogun Primary Healthcare Center., Anic Avenue, Alimosho, Lagos, Nigeria)</div>`)[0];
+                popup_9641c6e25500444927d818d35a2812e9.setContent(html_e04f146297e3cf71ee4f2d1dc9493849);
+            
+        
+
+        marker_d9047f2edec7fcf1edc1ce2dd0f46191.bindPopup(popup_9641c6e25500444927d818d35a2812e9)
+        ;
+
+        
+    
+    
+            var marker_e2c2921167b82c237ceb2ede27c2d5c8 = L.marker(
+                [6.5004514, 3.2067874],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_d952e18989a7bae0c55146b55d82ba0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2c2921167b82c237ceb2ede27c2d5c8.setIcon(icon_d952e18989a7bae0c55146b55d82ba0e);
+        
+    
+        var popup_3e807f9a36449bbdf78d2aceaee82a15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f4bd0026a165e1e792aaa2f5479216c = $(`<div id="html_7f4bd0026a165e1e792aaa2f5479216c" style="width: 100.0%; height: 100.0%;">Ndieze Homeopathic Medical Services 20 Drchiwumba Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria (Ndieze Homeopathic Medical Services 20 Drchiwumba Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_3e807f9a36449bbdf78d2aceaee82a15.setContent(html_7f4bd0026a165e1e792aaa2f5479216c);
+            
+        
+
+        marker_e2c2921167b82c237ceb2ede27c2d5c8.bindPopup(popup_3e807f9a36449bbdf78d2aceaee82a15)
+        ;
+
+        
+    
+    
+            var marker_6807cff88395b88151773a11c34c36a3 = L.marker(
+                [4.385636, 7.1812195],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_b14720d89a6e822e36f373efe0017595 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6807cff88395b88151773a11c34c36a3.setIcon(icon_b14720d89a6e822e36f373efe0017595);
+        
+    
+        var popup_fd30e73d131b501a23be489a34ab1489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5bb52823e7117616202bd4f02ff103c = $(`<div id="html_a5bb52823e7117616202bd4f02ff103c" style="width: 100.0%; height: 100.0%;">School: NLNG SCHOOL, SOKOTO AVENUE, Nigeria LNG Residential, Bonny, Rivers, Nigeria</div>`)[0];
+                popup_fd30e73d131b501a23be489a34ab1489.setContent(html_a5bb52823e7117616202bd4f02ff103c);
+            
+        
+
+        marker_6807cff88395b88151773a11c34c36a3.bindPopup(popup_fd30e73d131b501a23be489a34ab1489)
+        ;
+
+        
+    
+    
+            var marker_c17de0099701bbb3d2bcacc8a7418b63 = L.marker(
+                [9.0096618, 7.474298146889271],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_2c9dc73915b554987a48dcefdff4eef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c17de0099701bbb3d2bcacc8a7418b63.setIcon(icon_2c9dc73915b554987a48dcefdff4eef2);
+        
+    
+        var popup_f9f73acb786e46a375ada67a1cfdca7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d5766dbd2f09493df61dbb1d0b3bb11 = $(`<div id="html_6d5766dbd2f09493df61dbb1d0b3bb11" style="width: 100.0%; height: 100.0%;">School: Anglican Girls Grammar School, Abdulsalami Abubakar Road, Garki, Gudu, Abuja, Municipal Area Council, Federal Capital Territory, 900103, Nigeria</div>`)[0];
+                popup_f9f73acb786e46a375ada67a1cfdca7f.setContent(html_6d5766dbd2f09493df61dbb1d0b3bb11);
+            
+        
+
+        marker_c17de0099701bbb3d2bcacc8a7418b63.bindPopup(popup_f9f73acb786e46a375ada67a1cfdca7f)
+        ;
+
+        
+    
+    
+            var marker_ff0eafd7f9628781df51087eca9496c8 = L.marker(
+                [9.93061, 8.8763404],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_9b9884329d64623e3b82fd556f4b4642 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff0eafd7f9628781df51087eca9496c8.setIcon(icon_9b9884329d64623e3b82fd556f4b4642);
+        
+    
+        var popup_f53a3869258d9b2bcc7f679dbc00f3d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ef4c77056ac51898b2ab05ebec986df = $(`<div id="html_8ef4c77056ac51898b2ab05ebec986df" style="width: 100.0%; height: 100.0%;">School: St John's College Jos, minor road from Jankwano to excellent bridge, Angwan soya Jos, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_f53a3869258d9b2bcc7f679dbc00f3d2.setContent(html_8ef4c77056ac51898b2ab05ebec986df);
+            
+        
+
+        marker_ff0eafd7f9628781df51087eca9496c8.bindPopup(popup_f53a3869258d9b2bcc7f679dbc00f3d2)
+        ;
+
+        
+    
+    
+            var marker_99873c247493fa649d1c9e00d6fc6b1d = L.marker(
+                [9.9236175, 8.8864181],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_e5d6819ae21e89f5b879893a332e2e7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99873c247493fa649d1c9e00d6fc6b1d.setIcon(icon_e5d6819ae21e89f5b879893a332e2e7b);
+        
+    
+        var popup_b3bcac148bc97225a228b1edeff316ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70325e39cc0b6b93bbd085c3a02ce534 = $(`<div id="html_70325e39cc0b6b93bbd085c3a02ce534" style="width: 100.0%; height: 100.0%;">School: St. Paul Primary & Secondary School, Boundary Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_b3bcac148bc97225a228b1edeff316ed.setContent(html_70325e39cc0b6b93bbd085c3a02ce534);
+            
+        
+
+        marker_99873c247493fa649d1c9e00d6fc6b1d.bindPopup(popup_b3bcac148bc97225a228b1edeff316ed)
+        ;
+
+        
+    
+    
+            var marker_46e528c28cd44af089581bee96408ad6 = L.marker(
+                [9.9267189, 8.879289218616726],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_4ed78de5dfa262ab6c518c84b535c9fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46e528c28cd44af089581bee96408ad6.setIcon(icon_4ed78de5dfa262ab6c518c84b535c9fe);
+        
+    
+        var popup_350604c230b809a4f3758ade4031daaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a614e2e88839b40576937455d1e9e953 = $(`<div id="html_a614e2e88839b40576937455d1e9e953" style="width: 100.0%; height: 100.0%;">School: St louis girls secoundary school, A236, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_350604c230b809a4f3758ade4031daaf.setContent(html_a614e2e88839b40576937455d1e9e953);
+            
+        
+
+        marker_46e528c28cd44af089581bee96408ad6.bindPopup(popup_350604c230b809a4f3758ade4031daaf)
+        ;
+
+        
+    
+    
+            var marker_9b3b2281108e503b64d6a71e8b52ccea = L.marker(
+                [9.9460548, 8.866905357481794],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_a776ace834a3d5ac18e110171991ecc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b3b2281108e503b64d6a71e8b52ccea.setIcon(icon_a776ace834a3d5ac18e110171991ecc5);
+        
+    
+        var popup_41c1730f8d0565bfcad8e7eafd9a87b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50e937c812dc9c720755615d5bb345ae = $(`<div id="html_50e937c812dc9c720755615d5bb345ae" style="width: 100.0%; height: 100.0%;">School: St murumba college, Zaria Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_41c1730f8d0565bfcad8e7eafd9a87b1.setContent(html_50e937c812dc9c720755615d5bb345ae);
+            
+        
+
+        marker_9b3b2281108e503b64d6a71e8b52ccea.bindPopup(popup_41c1730f8d0565bfcad8e7eafd9a87b1)
+        ;
+
+        
+    
+    
+            var marker_0c652caf0226c7ac0a6f8bb5d9b3877b = L.marker(
+                [9.9422695, 8.866490398969415],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_777f5cf29ca3c0feb5ef0ba003443b82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c652caf0226c7ac0a6f8bb5d9b3877b.setIcon(icon_777f5cf29ca3c0feb5ef0ba003443b82);
+        
+    
+        var popup_81b41b0112ce472e646de9926a2249a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ec594f6935f299d779c3b3cd3ed6eb8 = $(`<div id="html_5ec594f6935f299d779c3b3cd3ed6eb8" style="width: 100.0%; height: 100.0%;">School: newton education center, A236, New Stadium, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_81b41b0112ce472e646de9926a2249a2.setContent(html_5ec594f6935f299d779c3b3cd3ed6eb8);
+            
+        
+
+        marker_0c652caf0226c7ac0a6f8bb5d9b3877b.bindPopup(popup_81b41b0112ce472e646de9926a2249a2)
+        ;
+
+        
+    
+    
+            var marker_61f633d04735f5da2d8777c98478d39f = L.marker(
+                [9.9655417, 8.8787794],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_d4642875dafd579eecf0dc25a19132d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61f633d04735f5da2d8777c98478d39f.setIcon(icon_d4642875dafd579eecf0dc25a19132d1);
+        
+    
+        var popup_b9a69e0abb6111b3c287f1f8d49dd63f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a375941f1662129a4cf0b5890e56aef = $(`<div id="html_1a375941f1662129a4cf0b5890e56aef" style="width: 100.0%; height: 100.0%;">School: Professor seddi sabastine Maimako faculty of management sciences, road to geography department, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_b9a69e0abb6111b3c287f1f8d49dd63f.setContent(html_1a375941f1662129a4cf0b5890e56aef);
+            
+        
+
+        marker_61f633d04735f5da2d8777c98478d39f.bindPopup(popup_b9a69e0abb6111b3c287f1f8d49dd63f)
+        ;
+
+        
+    
+    
+            var marker_5968c8464ea153680227f7af6a1d48d4 = L.marker(
+                [9.94238695, 8.866055424330533],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_35eee4e9b9289d58d2b40bb3885126ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5968c8464ea153680227f7af6a1d48d4.setIcon(icon_35eee4e9b9289d58d2b40bb3885126ea);
+        
+    
+        var popup_df75eb42ac73aac4d75ddd8d2cdcd7ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7941e7d19cbb57220c271b0aa76896fb = $(`<div id="html_7941e7d19cbb57220c271b0aa76896fb" style="width: 100.0%; height: 100.0%;">School: bishops college, Zaria Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_df75eb42ac73aac4d75ddd8d2cdcd7ed.setContent(html_7941e7d19cbb57220c271b0aa76896fb);
+            
+        
+
+        marker_5968c8464ea153680227f7af6a1d48d4.bindPopup(popup_df75eb42ac73aac4d75ddd8d2cdcd7ed)
+        ;
+
+        
+    
+    
+            var marker_f0d24261de6ab37682c6807dfe20462c = L.marker(
+                [9.9668089, 8.8796578],
+                {}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var icon_bbfc7acb6c1484b2d39f1aad78fdc2ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "education", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0d24261de6ab37682c6807dfe20462c.setIcon(icon_bbfc7acb6c1484b2d39f1aad78fdc2ec);
+        
+    
+        var popup_129cce624ff2d55ddec389e3810dd51b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff774e6464da8f5e7b51e2ad6385aa1 = $(`<div id="html_dff774e6464da8f5e7b51e2ad6385aa1" style="width: 100.0%; height: 100.0%;">School: Geography and planning, road to geography department, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_129cce624ff2d55ddec389e3810dd51b.setContent(html_dff774e6464da8f5e7b51e2ad6385aa1);
+            
+        
+
+        marker_f0d24261de6ab37682c6807dfe20462c.bindPopup(popup_129cce624ff2d55ddec389e3810dd51b)
+        ;
+
+        
+    
+    
+            var feature_group_f1c6691d5065e49eb99c917cc243fbcf = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_f1d9e27a014654f40cfe40cdcddf6728 = L.marker(
+                [6.4647612500000005, 3.153225221590633],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_77d182577f29299d3381434a06d18c35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1d9e27a014654f40cfe40cdcddf6728.setIcon(icon_77d182577f29299d3381434a06d18c35);
+        
+    
+        var popup_3b22d382d9e6de0cb35ef89e1ed9c11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85883b47943c2d04541acf3e5ed79138 = $(`<div id="html_85883b47943c2d04541acf3e5ed79138" style="width: 100.0%; height: 100.0%;">Ilogbo-Center Hospital, Adeyemo Street, Alasia, Ojo, Lagos, Nigeria (Ilogbo-Center Hospital, Adeyemo Street, Alasia, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_3b22d382d9e6de0cb35ef89e1ed9c11c.setContent(html_85883b47943c2d04541acf3e5ed79138);
+            
+        
+
+        marker_f1d9e27a014654f40cfe40cdcddf6728.bindPopup(popup_3b22d382d9e6de0cb35ef89e1ed9c11c)
+        ;
+
+        
+    
+    
+            var marker_bc9ececdf63c2c1901439d8a09b7808c = L.marker(
+                [6.4955066, 3.1717899],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_ae01dbb403c56a1c9686c995848858c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc9ececdf63c2c1901439d8a09b7808c.setIcon(icon_ae01dbb403c56a1c9686c995848858c5);
+        
+    
+        var popup_8353675eb453586bb5e7fc68febe7d77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40e9892b4a6be90cafdc6f0e61b523e5 = $(`<div id="html_40e9892b4a6be90cafdc6f0e61b523e5" style="width: 100.0%; height: 100.0%;">Leverage Hospital Specialist Clinic, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria (Leverage Hospital Specialist Clinic, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_8353675eb453586bb5e7fc68febe7d77.setContent(html_40e9892b4a6be90cafdc6f0e61b523e5);
+            
+        
+
+        marker_bc9ececdf63c2c1901439d8a09b7808c.bindPopup(popup_8353675eb453586bb5e7fc68febe7d77)
+        ;
+
+        
+    
+    
+            var marker_ea7cbd28fe4d670507c5b78a4b1aeae5 = L.marker(
+                [6.496422, 3.1711113],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_b79585fb0a2c36b48657467ab53f2998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea7cbd28fe4d670507c5b78a4b1aeae5.setIcon(icon_b79585fb0a2c36b48657467ab53f2998);
+        
+    
+        var popup_89af5568ef8b35e7088a1f4559b24c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aacae17ee59eaaf173c97e263879190 = $(`<div id="html_4aacae17ee59eaaf173c97e263879190" style="width: 100.0%; height: 100.0%;">Tower Of Glory Hospital, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria (Tower Of Glory Hospital, Mobolaji Street, Isasi, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_89af5568ef8b35e7088a1f4559b24c87.setContent(html_4aacae17ee59eaaf173c97e263879190);
+            
+        
+
+        marker_ea7cbd28fe4d670507c5b78a4b1aeae5.bindPopup(popup_89af5568ef8b35e7088a1f4559b24c87)
+        ;
+
+        
+    
+    
+            var marker_c5c4da1755075515d2fc4ef7521ad9f0 = L.marker(
+                [6.5029858, 3.2065956],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_81b54f37147df327ce44e0763db86923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c5c4da1755075515d2fc4ef7521ad9f0.setIcon(icon_81b54f37147df327ce44e0763db86923);
+        
+    
+        var popup_34e2fbec5b727e0e470bcace24b354af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47f32d28384545fe95367b59b4ea7200 = $(`<div id="html_47f32d28384545fe95367b59b4ea7200" style="width: 100.0%; height: 100.0%;">Adis Bunm Trado Medical Hospital And Maternity Home 14 Nnaema Uzor Street Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria (Adis Bunm Trado Medical Hospital And Maternity Home 14 Nnaema Uzor Street Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_34e2fbec5b727e0e470bcace24b354af.setContent(html_47f32d28384545fe95367b59b4ea7200);
+            
+        
+
+        marker_c5c4da1755075515d2fc4ef7521ad9f0.bindPopup(popup_34e2fbec5b727e0e470bcace24b354af)
+        ;
+
+        
+    
+    
+            var marker_620530149e82021ec3598a377ab5ddc8 = L.marker(
+                [6.5023249, 3.198207],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_7eea0172d4fea175a19ce7c8360745b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_620530149e82021ec3598a377ab5ddc8.setIcon(icon_7eea0172d4fea175a19ce7c8360745b1);
+        
+    
+        var popup_1c7593e0c7ba8d53979785535b4f754e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5131e6a6e7e1709e3b93d431190bdfef = $(`<div id="html_5131e6a6e7e1709e3b93d431190bdfef" style="width: 100.0%; height: 100.0%;">Wisdom Hospital And Maternity, Lasu-Isheri Road, Ojo, Lagos, Nigeria (Wisdom Hospital And Maternity, Lasu-Isheri Road, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_1c7593e0c7ba8d53979785535b4f754e.setContent(html_5131e6a6e7e1709e3b93d431190bdfef);
+            
+        
+
+        marker_620530149e82021ec3598a377ab5ddc8.bindPopup(popup_1c7593e0c7ba8d53979785535b4f754e)
+        ;
+
+        
+    
+    
+            var marker_80fa00e876de0b7a77483f3110a314c0 = L.marker(
+                [6.4971682, 3.1964502],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_b366096f8d2516bc5894be9c57b65137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80fa00e876de0b7a77483f3110a314c0.setIcon(icon_b366096f8d2516bc5894be9c57b65137);
+        
+    
+        var popup_87fb0efa39fde466452468c27410ce02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eefe1c1d2160a8e57d253add6702a783 = $(`<div id="html_eefe1c1d2160a8e57d253add6702a783" style="width: 100.0%; height: 100.0%;">Betheland Hospital, David Edobor Street, Ojo, Lagos, Nigeria (Betheland Hospital, David Edobor Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_87fb0efa39fde466452468c27410ce02.setContent(html_eefe1c1d2160a8e57d253add6702a783);
+            
+        
+
+        marker_80fa00e876de0b7a77483f3110a314c0.bindPopup(popup_87fb0efa39fde466452468c27410ce02)
+        ;
+
+        
+    
+    
+            var marker_a10b6a6ce5d15767830defcccf25305d = L.marker(
+                [6.4961688, 3.1253126],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_630a5e12590ea189eaefa2ad9657ca0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a10b6a6ce5d15767830defcccf25305d.setIcon(icon_630a5e12590ea189eaefa2ad9657ca0d);
+        
+    
+        var popup_f78a90a65ba9f12dd72e9b539373565c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53b02293e8334bf52fc1cecfc61a5ec4 = $(`<div id="html_53b02293e8334bf52fc1cecfc61a5ec4" style="width: 100.0%; height: 100.0%;">Ore Ofe Hospital Ijanikin, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria (Ore Ofe Hospital Ijanikin, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_f78a90a65ba9f12dd72e9b539373565c.setContent(html_53b02293e8334bf52fc1cecfc61a5ec4);
+            
+        
+
+        marker_a10b6a6ce5d15767830defcccf25305d.bindPopup(popup_f78a90a65ba9f12dd72e9b539373565c)
+        ;
+
+        
+    
+    
+            var marker_59b3153d55447d983179e301886b5af0 = L.marker(
+                [6.4943433, 3.1184435],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_524dc5a2c08e95425caeb476f4ab8eda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_59b3153d55447d983179e301886b5af0.setIcon(icon_524dc5a2c08e95425caeb476f4ab8eda);
+        
+    
+        var popup_2f09b57fb0aa510ffa8f5869074bd760 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bf0b1334b9ac7c7ae60681ecb41b1d9 = $(`<div id="html_1bf0b1334b9ac7c7ae60681ecb41b1d9" style="width: 100.0%; height: 100.0%;">Femola Hospital, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria (Femola Hospital, Lagos-Badagry Expressway, Ijanikin, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_2f09b57fb0aa510ffa8f5869074bd760.setContent(html_1bf0b1334b9ac7c7ae60681ecb41b1d9);
+            
+        
+
+        marker_59b3153d55447d983179e301886b5af0.bindPopup(popup_2f09b57fb0aa510ffa8f5869074bd760)
+        ;
+
+        
+    
+    
+            var marker_ef63abdf27f240248002c45662670441 = L.marker(
+                [6.5906253, 3.2283304],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_436bfddcdf70e3e21e02a7e138a74be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef63abdf27f240248002c45662670441.setIcon(icon_436bfddcdf70e3e21e02a7e138a74be2);
+        
+    
+        var popup_2d820b42f54374667f122c0395fca793 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f2ab3a8937d4cfda92a206ab6545b04 = $(`<div id="html_0f2ab3a8937d4cfda92a206ab6545b04" style="width: 100.0%; height: 100.0%;">Balogun Primary Healthcare Center., Anic Avenue, Alimosho, Lagos, Nigeria (Balogun Primary Healthcare Center., Anic Avenue, Alimosho, Lagos, Nigeria)</div>`)[0];
+                popup_2d820b42f54374667f122c0395fca793.setContent(html_0f2ab3a8937d4cfda92a206ab6545b04);
+            
+        
+
+        marker_ef63abdf27f240248002c45662670441.bindPopup(popup_2d820b42f54374667f122c0395fca793)
+        ;
+
+        
+    
+    
+            var marker_e47ccb3b05336d83f8417be9b93eddbd = L.marker(
+                [6.5004514, 3.2067874],
+                {}
+            ).addTo(feature_group_f1c6691d5065e49eb99c917cc243fbcf);
+        
+    
+            var icon_765de17cfa645998b1e28b7492717e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e47ccb3b05336d83f8417be9b93eddbd.setIcon(icon_765de17cfa645998b1e28b7492717e95);
+        
+    
+        var popup_6eb63ba2843bf1ce239854b946f1998c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8c7b34d016fc0a0319de41aa31a04d3 = $(`<div id="html_e8c7b34d016fc0a0319de41aa31a04d3" style="width: 100.0%; height: 100.0%;">Ndieze Homeopathic Medical Services 20 Drchiwumba Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria (Ndieze Homeopathic Medical Services 20 Drchiwumba Off Summit Light Road, Priye Street, Ojo, Lagos, Nigeria)</div>`)[0];
+                popup_6eb63ba2843bf1ce239854b946f1998c.setContent(html_e8c7b34d016fc0a0319de41aa31a04d3);
+            
+        
+
+        marker_e47ccb3b05336d83f8417be9b93eddbd.bindPopup(popup_6eb63ba2843bf1ce239854b946f1998c)
+        ;
+
+        
+    
+    
+            feature_group_f1c6691d5065e49eb99c917cc243fbcf.addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var feature_group_96d7d307130ea1b3012ca0189c583f8f = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_721ccacead65fe7230971f341feb7926 = L.marker(
+                [4.385636, 7.1812195],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_7b46ea955e57b59e294cecd06dfe3adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_721ccacead65fe7230971f341feb7926.setIcon(icon_7b46ea955e57b59e294cecd06dfe3adb);
+        
+    
+        var popup_279e3d66e4d710ffffab0650f814c7c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_798a420a3999ac41471bcbabec28fd07 = $(`<div id="html_798a420a3999ac41471bcbabec28fd07" style="width: 100.0%; height: 100.0%;">School: NLNG SCHOOL, SOKOTO AVENUE, Nigeria LNG Residential, Bonny, Rivers, Nigeria</div>`)[0];
+                popup_279e3d66e4d710ffffab0650f814c7c9.setContent(html_798a420a3999ac41471bcbabec28fd07);
+            
+        
+
+        marker_721ccacead65fe7230971f341feb7926.bindPopup(popup_279e3d66e4d710ffffab0650f814c7c9)
+        ;
+
+        
+    
+    
+            var marker_c6a1f4c07e1d13903f43981d05a9c4ea = L.marker(
+                [9.0096618, 7.474298146889271],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_96353ff6a5cb683dd3a470f370faf897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6a1f4c07e1d13903f43981d05a9c4ea.setIcon(icon_96353ff6a5cb683dd3a470f370faf897);
+        
+    
+        var popup_a645067b37ae3cdbb8cfac7119060ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7bf8050ad15e6812e5859f17519a6f5 = $(`<div id="html_a7bf8050ad15e6812e5859f17519a6f5" style="width: 100.0%; height: 100.0%;">School: Anglican Girls Grammar School, Abdulsalami Abubakar Road, Garki, Gudu, Abuja, Municipal Area Council, Federal Capital Territory, 900103, Nigeria</div>`)[0];
+                popup_a645067b37ae3cdbb8cfac7119060ea3.setContent(html_a7bf8050ad15e6812e5859f17519a6f5);
+            
+        
+
+        marker_c6a1f4c07e1d13903f43981d05a9c4ea.bindPopup(popup_a645067b37ae3cdbb8cfac7119060ea3)
+        ;
+
+        
+    
+    
+            var marker_8539202661336f99e571f0f992502fd6 = L.marker(
+                [9.93061, 8.8763404],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_5d98089ab33e5d7d996d0405faf87e9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8539202661336f99e571f0f992502fd6.setIcon(icon_5d98089ab33e5d7d996d0405faf87e9d);
+        
+    
+        var popup_8742943452b069d29d9868f4f7e023c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9957107e88b94e7a3e118cf4274f14f6 = $(`<div id="html_9957107e88b94e7a3e118cf4274f14f6" style="width: 100.0%; height: 100.0%;">School: St John's College Jos, minor road from Jankwano to excellent bridge, Angwan soya Jos, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_8742943452b069d29d9868f4f7e023c6.setContent(html_9957107e88b94e7a3e118cf4274f14f6);
+            
+        
+
+        marker_8539202661336f99e571f0f992502fd6.bindPopup(popup_8742943452b069d29d9868f4f7e023c6)
+        ;
+
+        
+    
+    
+            var marker_53557b4519bd1f20a856de28003f7772 = L.marker(
+                [9.9236175, 8.8864181],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_b3122a422f1b0b522fe62e2cfcb74098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53557b4519bd1f20a856de28003f7772.setIcon(icon_b3122a422f1b0b522fe62e2cfcb74098);
+        
+    
+        var popup_01b6ee15ae7fc4538b27f6440a40b9a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f944ff93957d99df0fe11dc40d5f5f2d = $(`<div id="html_f944ff93957d99df0fe11dc40d5f5f2d" style="width: 100.0%; height: 100.0%;">School: St. Paul Primary & Secondary School, Boundary Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_01b6ee15ae7fc4538b27f6440a40b9a5.setContent(html_f944ff93957d99df0fe11dc40d5f5f2d);
+            
+        
+
+        marker_53557b4519bd1f20a856de28003f7772.bindPopup(popup_01b6ee15ae7fc4538b27f6440a40b9a5)
+        ;
+
+        
+    
+    
+            var marker_9106d4e81fa8cd0f097e026e756b84be = L.marker(
+                [9.9267189, 8.879289218616726],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_4b9df421997e53bfbc1dc51b7c39865d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9106d4e81fa8cd0f097e026e756b84be.setIcon(icon_4b9df421997e53bfbc1dc51b7c39865d);
+        
+    
+        var popup_885b395751f2ff0d16c616e628417eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3daf79bf14c68543753fd69969a1904 = $(`<div id="html_b3daf79bf14c68543753fd69969a1904" style="width: 100.0%; height: 100.0%;">School: St louis girls secoundary school, A236, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_885b395751f2ff0d16c616e628417eef.setContent(html_b3daf79bf14c68543753fd69969a1904);
+            
+        
+
+        marker_9106d4e81fa8cd0f097e026e756b84be.bindPopup(popup_885b395751f2ff0d16c616e628417eef)
+        ;
+
+        
+    
+    
+            var marker_f5c01c9b9d9b836e642ad1a418d85103 = L.marker(
+                [9.9460548, 8.866905357481794],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_63f79e6c48ce6194338db31eb9b247c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5c01c9b9d9b836e642ad1a418d85103.setIcon(icon_63f79e6c48ce6194338db31eb9b247c1);
+        
+    
+        var popup_edb919dc9d9bc60d38147cc8f5521d4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e813d5aaab30b0c4d67cc3bbd1f2b566 = $(`<div id="html_e813d5aaab30b0c4d67cc3bbd1f2b566" style="width: 100.0%; height: 100.0%;">School: St murumba college, Zaria Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_edb919dc9d9bc60d38147cc8f5521d4e.setContent(html_e813d5aaab30b0c4d67cc3bbd1f2b566);
+            
+        
+
+        marker_f5c01c9b9d9b836e642ad1a418d85103.bindPopup(popup_edb919dc9d9bc60d38147cc8f5521d4e)
+        ;
+
+        
+    
+    
+            var marker_d6036eed957d9652e4821effb1fd4f7a = L.marker(
+                [9.9422695, 8.866490398969415],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_20d0b899046cdfc3a0bfb644de2540b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6036eed957d9652e4821effb1fd4f7a.setIcon(icon_20d0b899046cdfc3a0bfb644de2540b3);
+        
+    
+        var popup_a84fdba33b47664866e09c25065d373f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31410d0f53b82f1d4e18cd18d1d1bc22 = $(`<div id="html_31410d0f53b82f1d4e18cd18d1d1bc22" style="width: 100.0%; height: 100.0%;">School: newton education center, A236, New Stadium, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_a84fdba33b47664866e09c25065d373f.setContent(html_31410d0f53b82f1d4e18cd18d1d1bc22);
+            
+        
+
+        marker_d6036eed957d9652e4821effb1fd4f7a.bindPopup(popup_a84fdba33b47664866e09c25065d373f)
+        ;
+
+        
+    
+    
+            var marker_aa0e620bdf123a1da3f17752775cc963 = L.marker(
+                [9.9655417, 8.8787794],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_83ff83afc4eedf93a62eec9ed886f41d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa0e620bdf123a1da3f17752775cc963.setIcon(icon_83ff83afc4eedf93a62eec9ed886f41d);
+        
+    
+        var popup_36486bcc88726203cddcdc360d3d42f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e2d0d76572515407e68006d3aeff265 = $(`<div id="html_2e2d0d76572515407e68006d3aeff265" style="width: 100.0%; height: 100.0%;">School: Professor seddi sabastine Maimako faculty of management sciences, road to geography department, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_36486bcc88726203cddcdc360d3d42f7.setContent(html_2e2d0d76572515407e68006d3aeff265);
+            
+        
+
+        marker_aa0e620bdf123a1da3f17752775cc963.bindPopup(popup_36486bcc88726203cddcdc360d3d42f7)
+        ;
+
+        
+    
+    
+            var marker_f554e3b2c8b8348d158fc72964cb1fbd = L.marker(
+                [9.94238695, 8.866055424330533],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_59e259f6b2fbec5a4bf4da3446408ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f554e3b2c8b8348d158fc72964cb1fbd.setIcon(icon_59e259f6b2fbec5a4bf4da3446408ba1);
+        
+    
+        var popup_9a59873d548633bc545b60edfff70e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b6ec16b1dd9738a063b40e24e5ee85f = $(`<div id="html_3b6ec16b1dd9738a063b40e24e5ee85f" style="width: 100.0%; height: 100.0%;">School: bishops college, Zaria Road, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_9a59873d548633bc545b60edfff70e0a.setContent(html_3b6ec16b1dd9738a063b40e24e5ee85f);
+            
+        
+
+        marker_f554e3b2c8b8348d158fc72964cb1fbd.bindPopup(popup_9a59873d548633bc545b60edfff70e0a)
+        ;
+
+        
+    
+    
+            var marker_3f34c5c5501ba28f95217749bee5cb34 = L.marker(
+                [9.9668089, 8.8796578],
+                {}
+            ).addTo(feature_group_96d7d307130ea1b3012ca0189c583f8f);
+        
+    
+            var icon_e3137ef8081a08298b62d0d14a75998a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f34c5c5501ba28f95217749bee5cb34.setIcon(icon_e3137ef8081a08298b62d0d14a75998a);
+        
+    
+        var popup_8beb9f6a8968a3a7da5d39e651e36885 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11419aa9b444f0985f50dc69c54c2edf = $(`<div id="html_11419aa9b444f0985f50dc69c54c2edf" style="width: 100.0%; height: 100.0%;">School: Geography and planning, road to geography department, Jos, Jos North, Plateau, 930214, Nigeria</div>`)[0];
+                popup_8beb9f6a8968a3a7da5d39e651e36885.setContent(html_11419aa9b444f0985f50dc69c54c2edf);
+            
+        
+
+        marker_3f34c5c5501ba28f95217749bee5cb34.bindPopup(popup_8beb9f6a8968a3a7da5d39e651e36885)
+        ;
+
+        
+    
+    
+            feature_group_96d7d307130ea1b3012ca0189c583f8f.addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+        
+    
+            var layer_control_6d5fbb81963f97945e7052965d7780c6_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3d8a6d54466eba219ed2518a43dbfea9,
+                },
+                overlays :  {
+                    "Healthcare" : feature_group_f1c6691d5065e49eb99c917cc243fbcf,
+                    "Educational Institutions" : feature_group_96d7d307130ea1b3012ca0189c583f8f,
+                },
+            };
+            let layer_control_6d5fbb81963f97945e7052965d7780c6 = L.control.layers(
+                layer_control_6d5fbb81963f97945e7052965d7780c6_layers.base_layers,
+                layer_control_6d5fbb81963f97945e7052965d7780c6_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_17da4f3fe29ac0e67924c90f93cc71d5);
+
+        
+</script>
+</html>
